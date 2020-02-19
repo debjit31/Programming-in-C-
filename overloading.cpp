@@ -13,7 +13,7 @@ class Overloading{
     }
     void area(int x, int y, int z)
     {
-        int s = (x+y+z)/2;
+        double s = (x+y+z)/2;
         double area = sqrt(s*(s-x)*(s-y)*(s-z));
         cout<<"Area of Triangle is :- "<<area;
     }
@@ -22,5 +22,5 @@ int main(){
     Overloading ov;
     ov.area(4);
     ov.area(4,5);
-    ov.area(2,3,100);
+    ov.area(2,3,4);
 }
