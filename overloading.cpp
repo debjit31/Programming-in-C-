@@ -1,5 +1,5 @@
 #include<iostream>
-#include<cmath>
+#include<math.h>
 using namespace std;
 class Overloading{
     public:
@@ -22,5 +22,5 @@ int main(){
     Overloading ov;
     ov.area(4);
     ov.area(4,5);
-    ov.area(2,3,4);
+    ov.area(11,10,13);
 }
