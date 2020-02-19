@@ -58,7 +58,6 @@ int main(){
     t.add_expenseC();
     t.add_expenseD();
     t.add_expenseE();
-
     t.displayTotalExpense();
     
 }
