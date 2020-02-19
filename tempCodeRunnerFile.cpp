@@ -1,0 +1,1 @@
+double area = sqrt(s*(s-x)*(s-y)*(s-z));
