@@ -4,12 +4,19 @@ using namespace std;
 class A{
 	private:
 		int x;
+		//String y;
 	public:
 		void input(){
 			printf("In Class A.....\n");
 			printf("Enter a value :- ");
 			cin >> x;
+			/*printf("Enter a name :- ");
+			cin >> y;*/
 			printf("Value of x :- %d\n", x);
+		}
+		int getdata(){
+			return x;
+			//return y;
 		}
 };
 class B: public A{
